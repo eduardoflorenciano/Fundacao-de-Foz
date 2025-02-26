@@ -1,0 +1,105 @@
+<!--Identifica o HTML5-->
+<!DOCTYPE html>
+<html>
+
+<!--A aba do browser-->
+
+<head>
+    <!--Identifica o CSS para que possamos usá-lo no nosso HTML-->
+    <link rel="stylesheet" href="style.css">
+    <!--Nos permite usar caracteres especiais-->
+    <meta charset="UTF-8" />
+    <!--Nome da aba do browser-->
+    <title>Fundação de Foz do Iguaçu - PR</title>
+    <!--Imagem do brasão pequenininho na aba-->
+    <link rel="shortcut icon" href="./assets/images/brasao.png" type="image/x-icon">
+</head>
+
+<!--Corpo do nosso site onde escreveremos tudo-->
+
+<body>
+    <!--Cabeçalho onde ficará o brasão de Foz e os links das páginas-->
+    <header>
+        <!--Brasão que ficará no canto esquerdo do header e utilizando o class para modifica-lo no CSS-->
+        <img src="./assets/images/brasao.png" class="Brasão">
+        <!--Nav representa uma seção de uma página que aponta para as outras páginas ou para outras áreas da página-->
+        <nav>
+            <!--Lista das nossas páginas que ficarão no header-->
+            <ul>
+                <!--O Index é o link para a página original-->
+                <li><a href="index.html" class="edu">Página Original</a></li>
+                <!--Link para a página do Guilherme-->
+                <li><a href="guilherme.html" class="edu">Página do Guilherme</a></li>
+                <!--Link para a página da Maria-->
+                <li><a href="maria.html" class="edu">Página da Maria</a></li>
+                <!--Link para a página do Vitor-->
+                <li><a href="vitor.html" class="edu">Página do Vitor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--É a linha que separa o header do h1-->
+    <hr>
+    <!--Div utilizada para estruturar o layout template de uma página-->
+    <div>
+        <!--H1 é o título da pesquisa-->
+        <h1>Fundação de Foz do Iguaçu - PR</h1>
+        <!--P é o parágrafo da pesquisa-->
+        <p>"Pesquisas arqueológicas realizadas pela Universidade Federal do Paraná no espaço brasileiro do reservatório
+            de Itaipu, antes de sua formação, situaram em 6.000 a.C. os vestígios da mais remota presença humana na
+            região; vários grupos humanos sucederam-se ao longo dos séculos. Os últimos que precederam os europeus
+            (espanhóis e portugueses), foram os índios. Em 1542, o espanhol Álvar Nuñes Cabeza de Vaca, chegou ao rio
+            Iguaçu e por ele seguiu guiado por índios Caiaganges, atingindo as Cataratas, batizando o Paraguai, ficando
+            o registro de que foi o descobridor das Cataratas.</p>
+        <p>Em 1881, Foz do Iguaçu recebeu seus dois primeiros habitantes, o brasileiro Pedro Martins da Silva e o
+            espanhol Manuel Gonzáles. Pouco depois chegaram os irmãos Goycochéa, que começaram a explorar a erva-mate.
+            Oito anos após, foi fundada a colônia Militar na fronteira - marco do início da ocupação efetiva do lugar
+            por brasileiros e do que viria a ser o município de Foz do Iguaçu.</p>
+        <p>A expedição do Engenheiro e Tenente José Joaquim Firmino chegou a Foz do Iguaçu em julho de 1889. Foi feito
+            um levantamento da população e foram identificadas 324 pessoas, em sua maioria paraguaios e argentinos. Mas
+            havia também espanhóis e ingleses, já presentes na região e dedicados à extração da erva-mate e da madeira,
+            exportadas via rio Paraná.</p>
+        <p>Em 22 de novembro do mesmo ano, o Tenente Antonio Batista da Costa Júnior e o Sargento José Maria de Brito
+            fundaram a Colônia Militar, que tinha competência para distribuir terrenos a colonos interessados.</p>
+        <p>No ano de 1897 foi criada a Agência Fiscal, chefiada pelo Capitão Lindolfo Siqueira Bastos. Ele Registrou a
+            existência de apenas 13 casas e alguns ranchos de palha. Nos primeiros anos do século XX a população de Foz
+            do Iguaçu chegou a aproximadamente 2.000 pessoas e o vilarejo dispunha de uma hospedaria, quatro mercearias,
+            um rústico quartel militar, mesa de rendas e estação telegráfica, engenhos de açúcar e cahcahça e uma
+            agricultura de subsistência.</p>
+        <p>Em 1910 a Colônia Militar passou à condição de Vila Iguassu, distrito do Município de Guarapuava. Dois anos
+            depois, o Ministro da Guerra emancipou a Colônia tornando-a um povoamento civil entregue aos cuidados do
+            governo do Paraná, que criou então a Coletoria Estadual da Vila. Em 14 de março de 1914, pela Lei 1383, foi
+            criado o Município de Vila Iguaçu, instalado efetivamente no dia 10 de junho do mesmo ano, com a posse do
+            primeiro prefeito, Jorge Schimmelpfeng, e da primeira Câmara de Vereadores. O município passou a
+            denominar-se Foz do Iguaçu, em 1918".(Reprodução foz.portaldacidade).</p>
+        <!--Tag que nos permite colocar imagens-->
+        <figure>
+            <!--Imagem de Foz antiga, usamos o class para modifica-lo no CSS, o title mostra o que é a imagem e o alt serve para dizer o que é a imagem de maneira visível caso não carregue-->
+            <img src="./assets/images/foz-antiga.jpg" class="Cidade" title="Foz do Iguaçu (1983)"
+                alt="Imagem de Foz do Iguaçu de 1983">
+            <!--Fonte de onde pegamos a imagem e utilizando o class para centralizá-lo junto com as imagens-->
+            <figcaption class="fonte">FONTE: <a
+                    href="https://www.itaipu.gov.br/sala-de-imprensa/noticia/40-anos-itaipu-transforma-foz-em-um-dos-maiores-municipios-do-parana">Itaipu
+                    Binacional</a></figcaption>
+            <!--Imagem de Foz atual, usamos o class para modifica-lo no CSS, o title mostra o que é a imagem e o alt serve para dizer o que é a imagem de maneira visível caso não carregue-->
+            <img src="./assets/images/foz-atual.jpg" class="Cidade" title="Foz do Iguaçu (2023)"
+                alt="Imagem de Foz do Iguaçu de 2023">
+            <!--Fonte de onde pegamos a imagem e utilizando o class para centralizá-lo junto com as imagens-->
+            <figcaption class="fonte">FONTE: <a
+                    href="https://cidadesemfotos.blogspot.com/2013/01/fotos-de-foz-do-iguacu-pr.html">Cidades em
+                    fotos</a></figcaption>
+        </figure>
+    </div>
+    <!--É a linha que separa o footer da fonte-->
+    <hr>
+    <!--Rodapé onde ficará os nomes dos integrantes do grupo-->
+    <footer>
+        <!--Brasão que ficará no canto esquerdo do footers e utilizando o class para modifica-lo no CSS-->
+        <img src="./assets/images/brasao.png" class="Brasão">
+        <h2>Página construída por:</h2>
+        <!--Utilizamos o class="P" para modificar os nossos nomes que estão no footer para centralizá-los e colocar uma barra para separá-los-->
+        <p class=" P">Eduardo Florenciano dos Santos</p>
+        <h2>Série/Turma: 2ºBDS</h2>
+    </footer>
+</body>
+
+</html>

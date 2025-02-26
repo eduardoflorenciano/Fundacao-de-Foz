@@ -1,0 +1,98 @@
+/*Colocamos o header (cabeçalho), cor (cinza)*/
+header {
+    background-color: darkgray;
+    padding: 10px 10px 10px;
+}
+
+/*Colocamos o brasão de Foz no header, definimos a largura e altura usando o class="Brasão"*/
+.Brasão {
+    width: 100px;
+    height: 100px;
+}
+
+/*Colocamos os links das nossas páginas em sequência*/
+nav li {
+    display: inline;
+    margin: 90px;
+    text-align: center;
+}
+
+/*Colocamos uma cor (azul claro) de fundo no site*/
+body {
+    background-color: lightblue;
+}
+
+/*Colocamos uma cor (azul escuro) no h1 (título) e centralizamos*/
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/*Deixamos os parágrafos mais organizados*/
+div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Ajeitamos a largura e a altura,centralizamos as imagens da cidade e adicionamos bordas redondas usando o class="Cidade"*/
+.Cidade {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 18px;
+}
+
+/*Centralizamos a fonte para ficar em baixo das imagens na medida certa usando o class="fonte"*/
+.fonte {
+    text-align: center;
+}
+
+/* Remove as linhas dos links de todas as páginas */
+a {
+    text-decoration: none;
+}
+
+/*Colocamos o footer (rodapé), cor (cinza)*/
+footer {
+    background-color: darkgray;
+    padding: 10px 10px 10px;
+}
+
+/*Centralizamos o h2 que está no footer*/
+h2 {
+    text-align: center;
+}
+
+/*Centralizamos os nossos nomes que está no footer usando o class="P"*/
+.P {
+    text-align: center;
+}
+
+/*Decorei os nomes das páginas no meu site com um tipo de letra diferente que estão no header em negrito, as palavras aumentam quando você passa com o mouse sobre eles com transição de 1 segundo e coloquei cor (azul escuro)*/
+.edu:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 1s;
+    color: navy;
+}
+
+/*Decorei os parágrafos da pesquisa com a fonte de letra "Arial" utilizando o font-family*/
+.gui {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Decorei as palavras que estão no footer (rodapé) com a cor azul escuro*/
+#maria {
+    color: navy;
+}
+
+/*Quando você passa com o mouse no texto sobre a Fundação de Foz do Iguaçu, ele ficará destacando com a cor roxa*/
+.vitor:hover {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
