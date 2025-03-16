@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do **Fundação de Foz**, um site dedicado à preservação da história, cultura e patrimônio de Foz do Iguaçu. Nosso objetivo é fornecer informações detalhadas sobre a região, incluindo seus marcos históricos, eventos culturais e personagens ilustres que ajudaram a moldar sua identidade.
 
-![visao-do-site](https://github.com/eduardoflorenciano/Fundacao-de-Foz/assets/demo-image.png)
+![visao](https://github.com/eduardoflorenciano/Fundacao-de-Foz/assets/demo-image.png)
 
 <h3>Quer ver o projeto? <a href="https://eduardoflorenciano.github.io/Fundacao-de-Foz/">Clique Aqui</a></h3>
 
